@@ -7,9 +7,11 @@ const Navigation = () => {
       <Nav className="App">
         <h1>React Router Mini</h1>
         <NavItem>
+          {/*Link is a react-router component */}
           <Link to="/">Home</Link>
         </NavItem>
         <NavItem>
+          {/*NavLink is a react-strap component */}
           <NavLink href="/about">About</NavLink>
         </NavItem>
         <NavItem>
